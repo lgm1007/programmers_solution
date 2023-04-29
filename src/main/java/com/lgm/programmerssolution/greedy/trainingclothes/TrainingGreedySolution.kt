@@ -1,4 +1,4 @@
-package com.lgm.programmerssolution.trainingclothes
+package com.lgm.programmerssolution.greedy.trainingclothes
 
 class TrainingGreedySolution {
     fun solution(n: Int, lost: IntArray, reserve: IntArray): Int {
