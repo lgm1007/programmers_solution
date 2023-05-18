@@ -1,11 +1,17 @@
 package com.lgm.programmerssolution
 
 import com.lgm.programmerssolution.lottowin.LottoSolution
+import com.lgm.programmerssolution.traversal.TargetNumberSolution
 
 fun main() {
-    val lottoSolution = LottoSolution()
-    var lottos: IntArray = intArrayOf(44, 1, 0, 0, 31, 25)
-    var win_nums: IntArray = intArrayOf(31, 10, 45, 1, 6, 19)
+    println(targetNumberTest())
+}
 
-    println(lottoSolution.solution(lottos, win_nums))
+fun targetNumberTest(): Int {
+    val targetNumberSolution = TargetNumberSolution()
+
+    var numbers: IntArray = intArrayOf(4, 1, 2, 1)
+    var target: Int = 4
+
+    return targetNumberSolution.solution(numbers, target)
 }
